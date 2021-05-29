@@ -1,0 +1,14 @@
+{
+    "name": "shorturl/shorturl",
+    "description": "A short link is a powerful marketing tool when you use it carefully. It is not just a link but a medium between your customer and their destination. A short link allows you to collect so much data about your customers and their behaviors.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chi Vo",
+            "email": "c.kid2k11@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
