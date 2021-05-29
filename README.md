@@ -1,3 +1,5 @@
+# ShortURL – A free URL Shortener class for PHP
+
 ## Installation & loading
 ShortURL is available on [Packagist](https://packagist.org/packages/shorturl/shorturl) (using semantic versioning), and installation via [Composer](https://getcomposer.org) is the recommended way to install ShortURL. Just add this line to your `composer.json` file:
 
