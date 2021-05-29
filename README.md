@@ -11,21 +11,49 @@ or run
 composer require shorturl/shorturl
 ```
 
-## A Simple Example
+## Quick Start
 
 ```php
 <?php
-//Import ShortURL classes into the global namespace
-//These must be at the top of your script, not inside a function
+
 use ShortURL\ShortURL\Shorten;
 
-//Load Composer's autoloader
 require 'vendor/autoload.php';
 
-//Simple Usage
-echo Shorten::create('http://yourdomain.com/');
+$shorten = new Shorten()
 
-//Usage with text format
-echo Shorten::create('http://yourdomain.com/', '', 'text');
+echo $shorten->text('https://google.com');
 
+```
+
+
+## Start and manage your URL
+
+Get your API Key [here](https://short-url.asia/user/register)
+
+```php
+use ShortURL\ShortURL\Shorten;
+
+require 'vendor/autoload.php';
+
+$shorten = new Shorten('your_api_key')
+
+echo $shorten->json('https://google.com');
+
+```
+
+#### No errors
+```json
+{
+  "error":0,
+  "short":"https:\/\/short-url.asia\/DkZOb"
+}
+```
+
+#### An error has occurred
+```json
+{
+  "error":1,
+  "msg":"Please enter a valid url"
+ }
 ```
