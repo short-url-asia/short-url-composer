@@ -3,6 +3,8 @@
 ## Installation & loading
 ShortURL is available on [Packagist](https://packagist.org/packages/shorturl/shorturl) (using semantic versioning), and installation via [Composer](https://getcomposer.org) is the recommended way to install ShortURL. Just add this line to your `composer.json` file:
 
+Warning: This package is not installable via Composer 1.x, please make sure you upgrade to Composer 2+. Read more about our Composer 1.x deprecation policy.
+
 ```json
 "shorturl/shorturl": "dev-master"
 ```
