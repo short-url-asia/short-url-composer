@@ -9,7 +9,7 @@
             "email": "c.kid2k11@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {"shorturl\\HelloWorld\\": "src/"}
     },
