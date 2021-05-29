@@ -20,7 +20,7 @@ use ShortURL\ShortURL\Shorten;
 
 require 'vendor/autoload.php';
 
-$shorten = new Shorten()
+$shorten = new Shorten();
 
 echo $shorten->text('https://google.com');
 
@@ -38,7 +38,7 @@ use ShortURL\ShortURL\Shorten;
 
 require 'vendor/autoload.php';
 
-$shorten = new Shorten('your_api_key')
+$shorten = new Shorten('your_api_key');
 
 echo $shorten->json('https://google.com');
 
