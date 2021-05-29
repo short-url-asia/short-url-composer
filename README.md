@@ -22,7 +22,10 @@ use ShortURL\ShortURL\Shorten;
 //Load Composer's autoloader
 require 'vendor/autoload.php';
 
-//Usage
+//Simple Usage
 echo Shorten::create('http://yourdomain.com/');
+
+//Usage with text format
+echo Shorten::create('http://yourdomain.com/', '', 'text');
 
 ```
