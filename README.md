@@ -32,6 +32,8 @@ echo $shorten->text('https://google.com');
 Get your API Key [here](https://short-url.asia/user/register)
 
 ```php
+<?php
+
 use ShortURL\ShortURL\Shorten;
 
 require 'vendor/autoload.php';
