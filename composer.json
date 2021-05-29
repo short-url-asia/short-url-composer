@@ -13,7 +13,7 @@
     ],
     "minimum-stability": "dev",
     "autoload": {
-        "psr-4": {"shorturl\\HelloWorld\\": "src/"}
+        "psr-4": {"ShortURL\\ShortURL\\": "src/"}
     },
     "require": {
         "php": ">=5.5.9"
