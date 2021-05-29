@@ -1,6 +1,8 @@
 {
     "name": "shorturl/shorturl",
     "description": "Free URL Shortener.",
+    "keywords": ["shorturl","shortlink"],
+    "homepage": "https://github.com/short-url-asia/short-url-composer",
     "type": "library",
     "license": "MIT",
     "authors": [
