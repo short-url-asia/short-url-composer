@@ -13,5 +13,7 @@
     "autoload": {
         "psr-4": {"shorturl\\HelloWorld\\": "src/"}
     },
-    "require": {}
+    "require": {
+        "php": ">=5.5.9"
+    }
 }
